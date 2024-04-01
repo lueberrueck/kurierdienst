@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | Kurierdienst Hausner</title>
+    <link href="styles/output.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="index.html#home" class="flex items-center py-4 px-2">
+                            <img src="src/logokurier.png" alt="Logo" class="h-8 w-8 mr-2">
+                            <span class="font-semibold text-gray-500 text-lg">Kurierdienst Hausner</span>
+                        </a>
+                    </div>
+                    <!-- Primary Navbar items -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#home"
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Home</a>
+                        <a href="#about"
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Über
+                            Uns</a>
+                        <a href="#services"
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Dienstleistungen</a>
+                        <a href="#portfolio"
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Portfolio</a>
+                        <a href="#contact"
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Kontakt</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-green-500" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+            <ul>
+                <li><a href="#home"
+                        class="block text-sm px-2 py-4 text-gray-700 bg-green-500 hover:bg-green-600 transition duration-300">Home</a>
+                </li>
+                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Über
+                        Uns</a></li>
+                <li><a href="#services"
+                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Dienstleistungen</a>
+                </li>
+                <li><a href="#portfolio"
+                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Portfolio</a></li>
+                <li><a href="#contact"
+                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+    <div class="container mx-auto mt-16 p-4">
+        <h2 class="text-2xl font-bold mb-4">Impressum</h2>
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <p class="mb-2">Angaben gemäß § 5 TMG:</p>
+            <p class="mb-2">Kurierdienst Hausner<br>
+            Inhaber: Manuel Hausner<br>
+            Wiehenstr. 67<br>
+            32289 Rödinghausen<br>
+            Deutschland</p>
+            <h3 class="font-bold mt-4 mb-2">Kontakt:</h3>
+            <p>Telefon: 0157 38779781 oder 05746 314540<br>
+            E-Mail: <a href="mailto:kurierdienst.hausner@aol.com" class="text-blue-600">kurierdienst.hausner@aol.com</a></p>
+            <h3 class="font-bold mt-4 mb-2">Umsatzsteuer-ID:</h3>
+            <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE31050481840</p>
+        </div>
+    </div>
+    <footer class="bg-white shadow-md mt-8">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between">
+                <div>
+                    <a href="/" class="text-lg font-semibold text-gray-700 hover:text-gray-900">&copy; Kurierdienst Hausner</a>
+                </div>
+                <div class="flex justify-end">
+                    <a href="impressum.html" class="text-gray-600 hover:text-gray-900 ml-4">Impressum</a>
+                    <a href="datenschutz.html" class="text-gray-600 hover:text-gray-900 ml-4">Datenschutzerklärung</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
