@@ -1,866 +1,632 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kurierdienst Hausner</title>
-    <link href="styles/output.css" rel="stylesheet" />
-    <script
-      type="text/javascript"
-      src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"
-    ></script>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-  </head>
 
-  <body class="font-sans">
-    <!-- Navigation -->
-    <nav class="fixed top-0 w-full bg-white shadow-lg">
-      <div class="max-w-6xl mx-auto px-4">
-        <div class="flex justify-between">
-          <div class="flex space-x-7">
-            <div>
-              <!-- Website Logo -->
-              <a href="index.html#home" class="flex items-center py-4 px-2">
-                <img src="src/logokurier.png" alt="Logo" class="h-8 w-8 mr-2" />
-                <span class="font-semibold text-gray-500 text-lg"
-                  >Kurierdienst Hausner</span
-                >
-              </a>
-            </div>
-            <!-- Primary Navbar items -->
-            <div class="hidden md:flex items-center space-x-1">
-              <a
-                href="#home"
-                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                >Home</a
-              >
-              <a
-                href="#about"
-                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                >Über Uns</a
-              >
-              <a
-                href="#services"
-                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                >Dienstleistungen</a
-              >
-              <a
-                href="#portfolio"
-                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                >Portfolio</a
-              >
-              <a
-                href="#contact"
-                class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
-                >Kontakt</a
-              >
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurierdienst Hausner - Ihr zuverlässiger Partner für Transporte aller Art</title>
+  <meta name="description"
+    content="Kurierdienst Hausner bietet schnelle und zuverlässige Transportdienstleistungen in Deutschland und Europa. Kontaktieren Sie uns für Ihre Transportbedürfnisse.">
+  <meta name="keywords"
+    content="Kurierdienst, Transportdienstleistungen, Zuverlässiger Transport, Deutschland, Europa, Schnelltransport, Kurier">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.kurierdienst-hausner.de/">
+  <meta property="og:title" content="Kurierdienst Hausner - Ihr zuverlässiger Partner für Transporte aller Art">
+  <meta property="og:description"
+    content="Kurierdienst Hausner bietet schnelle und zuverlässige Transportdienstleistungen in Deutschland und Europa. Kontaktieren Sie uns für Ihre Transportbedürfnisse.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.kurierdienst-hausner.de/">
+  <meta property="og:image" content="https://www.kurierdienst-hausner.de/logokurier.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/logokurier.png">
+  <link href="styles/output.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</head>
+
+<body class="font-sans">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-white shadow-lg" style="z-index: 500;">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-7">
+          <div>
+            <!-- Website Logo -->
+            <a href="index.html#home" class="flex items-center py-4 px-2">
+              <img src="src/logokurier.png" alt="Logo" class="h-8 w-8 mr-2" />
+              <span class="font-semibold text-gray-500 text-lg">Kurierdienst Hausner</span>
+            </a>
           </div>
-          <!-- Mobile menu button -->
-          <div class="md:hidden flex items-center">
-            <button class="outline-none mobile-menu-button">
-              <svg
-                class="w-6 h-6 text-gray-500 hover:text-green-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M4 6h16M4 12h16m-7 6h7"></path>
-              </svg>
+          <!-- Primary Navbar items -->
+          <div class="hidden md:flex items-center space-x-1">
+            <a href="#home"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Home</a>
+            <a href="#about"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Über Uns</a>
+            <a href="#services"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Dienstleistungen</a>
+            <a href="#portfolio"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Portfolio</a>
+            <a href="#contact"
+              class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Kontakt</a>
+          </div>
+        </div>
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button class="outline-none mobile-menu-button">
+            <svg class="w-6 h-6 text-gray-500 hover:text-green-500" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu">
+      <ul>
+        <li>
+          <a href="#home"
+            class="block text-sm px-2 py-4 text-gray-700 bg-green-500 hover:bg-green-600 transition duration-300">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Über Uns</a>
+        </li>
+        <li>
+          <a href="#services"
+            class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Dienstleistungen</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+
+  <!-- Home Section -->
+  <div id="home" class="h-[650px] bg-cover w-full bg-center flex items-center justify-center"
+    style="background-image: url('src/lkw.jpeg')">
+    <div class="flex flex-col items-center justify-center text-center">
+      <img src="src/logokurierw.png" alt="Logo" class="h-32 w-32"
+        style="filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.8))" />
+      <h1 class="text-6xl md:text-7xl font-bold text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)">
+        Kurierdienst Hausner
+      </h1>
+      <p class="text-lg md:text-xl font-semibold mt-4 text-white">
+        Ihr zuverlässiger Partner für Transporte aller Art.
+      </p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 text-gray-700">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-2">Über Uns</h2>
+      <p class="text-base font-bold text-center mb-4">
+        Ob Norden, Osten, Süden oder Westen, Hausner fährt am Besten.
+      </p>
+      <p class="text-center text-lg leading-relaxed">
+        Seit unserer Gründung im Jahr 1989 stehen wir, Kurierdienst Hausner,
+        unseren Kunden als zuverlässiger Partner zur Seite. Mit unserem
+        umfangreichen Fuhrpark, der von PKWs über Transporter bis zu 3,5t
+        reicht bis hin zu LKWs mit einer Kapazität von bis zu 16t, decken wir
+        ein breites Spektrum an Transportbedürfnissen ab. Unsere Dienste
+        beschränken sich nicht nur auf das Inland; wir sind auch im gesamten
+        europäischen Ausland für Sie unterwegs. Rund um die Uhr, 24 Stunden am
+        Tag, 7 Tage die Woche, stehen wir Ihnen zur Verfügung, um Ihre
+        Transportaufträge mit höchster Sorgfalt und Zuverlässigkeit zu
+        erfüllen.
+      </p>
+    </div>
+  </section>
+  <!--Stärken-->
+
+  <section id="strengths" class="py-12 text-gray-700 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
+        Unsere Stärken
+      </h2>
+      <div class="text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">Zuverlässigkeit</h3>
+          <p class="text-base sm:text-lg">
+            Wir sind stolz darauf, immer verlässlich zu sein und Ihre
+            Sendungen sicher und pünktlich zu liefern.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            24/7 Verfügbarkeit
+          </h3>
+          <p class="text-base sm:text-lg">
+            Unser Team ist rund um die Uhr für Sie da, um Ihre Anfragen zu
+            bearbeiten und Transportlösungen zu bieten.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            Europaweite Präsenz
+          </h3>
+          <p class="text-base sm:text-lg">
+            Unsere umfangreichen Transportdienstleistungen erstrecken sich
+            über das gesamte europäische Ausland, was uns ermöglicht, Ihre
+            Sendungen über Grenzen hinweg effizient zu managen.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">Faire Preise</h3>
+          <p class="text-base sm:text-lg">
+            Wir bieten hochwertige Transportdienstleistungen zu fairen und
+            transparenten Preisen an, ohne Kompromisse bei der Servicequalität
+            einzugehen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Rezension Section -->
+
+  <section id="reviews" class="py-12 bg-white text-gray-700">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-8">Kundenrezensionen</h2>
+      <div class="reviews-carousel relative">
+        <!-- Rezension mit Bewertungssternen -->
+        <div class="review-item active">
+          <div class="review-content bg-white p-6 rounded-lg shadow-lg">
+            <div class="rating mb-4">
+              <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span
+                class="star">&#9733;</span><span class="star">&#9733;</span>
+            </div>
+            <p class="text-xl">
+              "Wir nutzen Kurierdienst Hausner seit mehreren Jahren für unsere geschäftlichen Lieferungen und sind jedes
+              Mal beeindruckt von der Schnelligkeit und Zuverlässigkeit ihres Services. Ihre freundlichen Mitarbeiter
+              und die transparente Preisgestaltung runden das hervorragende Serviceangebot ab. Ein echtes
+              Top-Unternehmen in der Logistikbranche!" - Kunde A
+            </p>
+          </div>
+        </div>
+
+        <!-- Weitere Rezensionen hinzufügen -->
+        <!-- Navigationspfeile -->
+        <button class="prev rounded-lg hover:bg-gray-700">&#10094;</button>
+        <button class="next rounded-lg hover:bg-gray-700">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-12 text-gray-700 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
+        Unsere Dienstleistungen
+      </h2>
+      <div class="text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">
+            Standardtransport
+          </h3>
+          <p class="text-base sm:text-lg">
+            Zuverlässige und schnelle Lieferungen für Ihre alltäglichen
+            Versandbedürfnisse. Ideal für Dokumente, Pakete und Standardgüter.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">Expresslieferung</h3>
+          <p class="text-base sm:text-lg">
+            Priorisierte Abwicklung für eilige Sendungen. Wir bringen Ihre
+            Sendungen schnell und sicher ans Ziel.
+          </p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
+          <h3 class="text-xl sm:text-2xl font-bold mb-2">Direktfahrten</h3>
+          <p class="text-base sm:text-lg">
+            Für dringende Transporte ohne Umwege. Ihre Ware wird direkt vom
+            Abhol- zum Zielort gebracht.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section angepasst -->
+  <section id="portfolio" class="py-12 text-gray-700 bg-gray-100">
+    <div class="text-center container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-8">Portfolio</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-lg">
+          <img src="src/dokument.jpeg" alt="Transport Bild 1" class="rounded-t-lg" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">Dokumententransport</h3>
+            <p>
+              Schnelle und sichere Zustellung Ihrer wichtigen Dokumente und
+              kleineren Pakete.
+            </p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg">
+          <img src="src/lager.jpeg" alt="Transport Bild 2" class="rounded-t-lg" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-2">Paket- und Warenversand</h3>
+            <p>
+              Zuverlässige Lieferdienste für eine Vielzahl von Paketgrößen und
+              Warentypen, ausgenommen spezielle Vorkehrungen erfordende Güter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontaktformular Section -->
+  <section id="contact" class="py-12 text-gray-700 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">
+        Kontaktieren Sie uns für Ihre Auftragsanfragen
+      </h2>
+      <div class="flex flex-wrap justify-center text-center">
+        <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+          <div class="p-8 max-w-md mx-auto bg-white rounded-xl shadow-lg space-y-4">
+            <div class="space-y-2">
+              <div class="text-2xl font-medium text-black">
+                Kontaktinformation
+              </div>
+              <p class="text-gray-600">Sie erreichen uns jederzeit über:</p>
+            </div>
+            <ul class="text-left text-gray-700">
+              <li>
+                <strong>Telefon:</strong>
+                <a href="tel:+4915738779781" class="font-semibold text-sky-700">0157/38779781</a>
+                oder
+                <a href="tel:+495746314540" class="font-semibold text-sky-700">05746/314540</a>
+              </li>
+              <li>
+                <strong>E-Mail:</strong>
+                <a href="mailto: kurierdienst.hausner@aol.com" class="text-blue-400 under underline underline-offset-2">
+                  kurierdienst.hausner@aol.com</a>
+              </li>
+              <li>
+                <strong>Adresse:</strong> Wiehenstr. 67, 32289 Rödinghausen
+              </li>
+            </ul>
+            <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
+              class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              type="button">
+              Anfrageformular öffnen
             </button>
           </div>
         </div>
       </div>
-      <!-- mobile menu -->
-      <div class="hidden mobile-menu">
-        <ul>
-          <li>
-            <a
-              href="#home"
-              class="block text-sm px-2 py-4 text-gray-700 bg-green-500 hover:bg-green-600 transition duration-300"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="#about"
-              class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-              >Über Uns</a
-            >
-          </li>
-          <li>
-            <a
-              href="#services"
-              class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-              >Dienstleistungen</a
-            >
-          </li>
-          <li>
-            <a
-              href="#portfolio"
-              class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a
-              href="#contact"
-              class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
-              >Kontakt</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <script>
-      const btn = document.querySelector("button.mobile-menu-button");
-      const menu = document.querySelector(".mobile-menu");
+      <!-- Modal toggle -->
+      <!-- Vorherige Kontaktinformationen hier einfügen -->
 
-      btn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-    </script>
+      <div class="text-center mt-8"></div>
 
-    <!-- Home Section -->
-    <div
-      id="home"
-      class="h-[650px] bg-cover w-full bg-center flex items-center justify-center"
-      style="background-image: url('src/lkw.jpeg')"
-    >
-      <div class="flex flex-col items-center justify-center text-center">
-        <img
-          src="src/logokurierw.png"
-          alt="Logo"
-          class="h-32 w-32"
-          style="filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.8))"
-        />
-        <h1
-          class="text-6xl md:text-7xl font-bold text-white"
-          style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)"
-        >
-          Kurierdienst Hausner
-        </h1>
-        <p class="text-lg md:text-xl font-semibold mt-4 text-white">
-          Ihr zuverlässiger Partner für Transporte aller Art.
-        </p>
-      </div>
-    </div>
-
-    <!-- About Section -->
-    <section id="about" class="py-12 text-gray-700">
-      <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold text-center mb-2">Über Uns</h2>
-        <p class="text-base font-bold text-center mb-4">
-          Ob Norden, Osten, Süden oder Westen, Hausner fährt am Besten.
-        </p>
-        <p class="text-center text-lg leading-relaxed">
-          Seit unserer Gründung im Jahr 1989 stehen wir, Kurierdienst Hausner,
-          unseren Kunden als zuverlässiger Partner zur Seite. Mit unserem
-          umfangreichen Fuhrpark, der von PKWs über Transporter bis zu 3,5t
-          reicht bis hin zu LKWs mit einer Kapazität von bis zu 16t, decken wir
-          ein breites Spektrum an Transportbedürfnissen ab. Unsere Dienste
-          beschränken sich nicht nur auf das Inland; wir sind auch im gesamten
-          europäischen Ausland für Sie unterwegs. Rund um die Uhr, 24 Stunden am
-          Tag, 7 Tage die Woche, stehen wir Ihnen zur Verfügung, um Ihre
-          Transportaufträge mit höchster Sorgfalt und Zuverlässigkeit zu
-          erfüllen.
-        </p>
-      </div>
-    </section>
-    <!--Stärken-->
-
-    <section id="strengths" class="py-12 text-gray-700 bg-gray-100">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
-          Unsere Stärken
-        </h2>
-        <div
-          class="text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6"
-        >
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">Zuverlässigkeit</h3>
-            <p class="text-base sm:text-lg">
-              Wir sind stolz darauf, immer verlässlich zu sein und Ihre
-              Sendungen sicher und pünktlich zu liefern.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">
-              24/7 Verfügbarkeit
-            </h3>
-            <p class="text-base sm:text-lg">
-              Unser Team ist rund um die Uhr für Sie da, um Ihre Anfragen zu
-              bearbeiten und Transportlösungen zu bieten.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">
-              Europaweite Präsenz
-            </h3>
-            <p class="text-base sm:text-lg">
-              Unsere umfangreichen Transportdienstleistungen erstrecken sich
-              über das gesamte europäische Ausland, was uns ermöglicht, Ihre
-              Sendungen über Grenzen hinweg effizient zu managen.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">Faire Preise</h3>
-            <p class="text-base sm:text-lg">
-              Wir bieten hochwertige Transportdienstleistungen zu fairen und
-              transparenten Preisen an, ohne Kompromisse bei der Servicequalität
-              einzugehen.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Rezension Section -->
-
-    <section id="reviews" class="py-12 bg-white text-gray-700">
-      <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold text-center mb-8">Kundenrezensionen</h2>
-        <div class="reviews-carousel relative">
-          <!-- Rezension mit Bewertungssternen -->
-          <div class="review-item active">
-            <div class="review-content bg-white p-6 rounded-lg shadow-lg">
-              <div class="rating mb-4">
-                <span class="star">&#9733;</span
-                ><span class="star">&#9733;</span
-                ><span class="star">&#9733;</span
-                ><span class="star">&#9733;</span
-                ><span class="star">&#9733;</span>
-              </div>
-              <p class="text-xl">
-                "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet." - Kunde A
-              </p>
-            </div>
-          </div>
-          <div class="review-item active">
-            <div class="review-content bg-white p-6 rounded-lg shadow-lg">
-              <div class="rating mb-4">
-                <span class="star">&#9733;</span
-                ><span class="star">&#9733;</span
-                ><span class="star">&#9733;</span
-                ><span class="star">&#9733;</span
-                ><span class="star">&#9733;</span>
-              </div>
-              <p class="text-xl">
-                "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet." - Kunde A
-              </p>
-            </div>
-          </div>
-          <!-- Weitere Rezensionen hinzufügen -->
-          <!-- Navigationspfeile -->
-          <button class="prev rounded-lg hover:bg-gray-700">&#10094;</button>
-          <button class="next rounded-lg hover:bg-gray-700">&#10095;</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-12 text-gray-700 bg-gray-100">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
-          Unsere Dienstleistungen
-        </h2>
-        <div
-          class="text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
-        >
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">
-              Standardtransport
-            </h3>
-            <p class="text-base sm:text-lg">
-              Zuverlässige und schnelle Lieferungen für Ihre alltäglichen
-              Versandbedürfnisse. Ideal für Dokumente, Pakete und Standardgüter.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">Expresslieferung</h3>
-            <p class="text-base sm:text-lg">
-              Priorisierte Abwicklung für eilige Sendungen. Wir bringen Ihre
-              Sendungen schnell und sicher ans Ziel.
-            </p>
-          </div>
-          <div class="bg-white rounded-lg shadow-lg p-4 sm:py-6">
-            <h3 class="text-xl sm:text-2xl font-bold mb-2">Direktfahrten</h3>
-            <p class="text-base sm:text-lg">
-              Für dringende Transporte ohne Umwege. Ihre Ware wird direkt vom
-              Abhol- zum Zielort gebracht.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Section angepasst -->
-    <section id="portfolio" class="py-12 text-gray-700 bg-gray-100">
-      <div class="text-center container mx-auto px-4">
-        <h2 class="text-4xl font-bold text-center mb-8">Portfolio</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="bg-white rounded-lg shadow-lg">
-            <img
-              src="src/dokument.jpeg"
-              alt="Transport Bild 1"
-              class="rounded-t-lg"
-            />
-            <div class="p-6">
-              <h3 class="text-2xl font-bold mb-2">Dokumententransport</h3>
-              <p>
-                Schnelle und sichere Zustellung Ihrer wichtigen Dokumente und
-                kleineren Pakete.
-              </p>
-            </div>
-          </div>
-          <div class="bg-white rounded-lg shadow-lg">
-            <img
-              src="src/lager.jpeg"
-              alt="Transport Bild 2"
-              class="rounded-t-lg"
-            />
-            <div class="p-6">
-              <h3 class="text-2xl font-bold mb-2">Paket- und Warenversand</h3>
-              <p>
-                Zuverlässige Lieferdienste für eine Vielzahl von Paketgrößen und
-                Warentypen, ausgenommen spezielle Vorkehrungen erfordende Güter.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Kontaktformular Section -->
-    <section id="contact" class="py-12 text-gray-700 bg-white">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">
-          Kontaktieren Sie uns für Ihre Auftragsanfragen
-        </h2>
-        <div class="flex flex-wrap justify-center text-center">
-          <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-            <div
-              class="p-8 max-w-md mx-auto bg-white rounded-xl shadow-lg space-y-4"
-            >
-              <div class="space-y-2">
-                <div class="text-2xl font-medium text-black">
-                  Kontaktinformation
-                </div>
-                <p class="text-gray-600">Sie erreichen uns jederzeit über:</p>
-              </div>
-              <ul class="text-left text-gray-700">
-                <li>
-                  <strong>Telefon:</strong>
-                  <a
-                    href="tel:+4915738779781"
-                    class="font-semibold text-sky-700"
-                    >0157/38779781</a
-                  >
-                  oder
-                  <a href="tel:+495746314540" class="font-semibold text-sky-700"
-                    >05746/314540</a
-                  >
-                </li>
-                <li>
-                  <strong>E-Mail:</strong>
-                  <a
-                    href="mailto: kurierdienst.hausner@aol.com"
-                    class="text-blue-400 under underline underline-offset-2"
-                  >
-                    kurierdienst.hausner@aol.com</a
-                  >
-                </li>
-                <li>
-                  <strong>Adresse:</strong> Wiehenstr. 67, 32289 Rödinghausen
-                </li>
-              </ul>
-              <button
-                data-modal-target="authentication-modal"
-                data-modal-toggle="authentication-modal"
-                class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                type="button"
-              >
-                Anfrageformular öffnen
+      <!-- Main modal -->
+      <div id="authentication-modal" tabindex="-1" aria-hidden="true"
+        class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+        style="z-index: 1000;">
+        <div class="relative p-4 w-full max-w-xl max-h-full">
+          <!-- Modal content -->
+          <div class="relative bg-gray-300 rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                Anfrageformular
+              </h3>
+              <button type="button"
+                class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                data-modal-hide="authentication-modal">
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 14 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                </svg>
+                <span class="sr-only">Close modal</span>
               </button>
             </div>
-          </div>
-        </div>
+            <!-- Modal body -->
+            <div class="flex wrap p-4 md:p-3">
+              <form id="contact-form" class="mt-4 w-full max-w-lg mx-auto">
+                <!-- Kontaktdaten des Absenders -->
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="sender_name"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Name des
+                      Absenders:</label>
+                    <input type="text" name="sender_name" id="sender_name" placeholder="Ihr Name" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="sender_email"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">E-Mail des
+                      Absenders:</label>
+                    <input type="email" name="sender_email" id="sender_email" placeholder="Ihre E-Mail-Adresse" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="sender_phone"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Telefon des
+                      Absenders:</label>
+                    <input type="text" name="sender_phone" id="sender_phone" placeholder="Telefonnummer" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <!-- Kontaktdaten des Empfängers -->
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="recipient_name"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Name des
+                      Empfängers:</label>
+                    <input type="text" name="recipient_name" id="recipient_name" placeholder="Name des Empfängers"
+                      required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="recipient_email"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">E-Mail des
+                      Empfängers:</label>
+                    <input type="email" name="recipient_email" id="recipient_email"
+                      placeholder="E-Mail-Adresse des Empfängers" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="recipient_phone"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Telefon des
+                      Empfängers:</label>
+                    <input type="text" name="recipient_phone" id="recipient_phone"
+                      placeholder="Telefonnummer des Empfängers" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="recipient_address"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Adresse des
+                      Empfängers:</label>
+                    <input type="text" name="recipient_address" id="recipient_address"
+                      placeholder="Adresse des Empfängers" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
 
-        <!-- Modal toggle -->
-        <!-- Vorherige Kontaktinformationen hier einfügen -->
+                <!-- Abholdetails -->
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="pickup_location"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Abholadresse:</label>
+                    <input type="text" name="pickup_location" id="pickup_location" placeholder="Abholadresse" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="pickup_date"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Abholdatum:</label>
+                    <input type="date" name="pickup_date" id="pickup_date" placeholder="Abholdatum" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="pickup_time"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Abholzeit:</label>
+                    <input type="time" name="pickup_time" id="pickup_time" placeholder="Abholzeit" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
 
-        <div class="text-center mt-8"></div>
+                <!-- Lieferdetails -->
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="delivery_destination"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Lieferadresse:</label>
+                    <input type="text" name="delivery_destination" id="delivery_destination" placeholder="Lieferadresse"
+                      required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="delivery_date"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Lieferdatum:</label>
+                    <input type="date" name="delivery_date" id="delivery_date" placeholder="Lieferdatum" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="delivery_time"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Lieferzeit:</label>
+                    <input type="time" name="delivery_time" id="delivery_time" placeholder="Lieferzeit" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+                  </div>
+                </div>
 
-        <!-- Main modal -->
-        <div
-          id="authentication-modal"
-          tabindex="-1"
-          aria-hidden="true"
-          class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
-        >
-          <div class="relative p-4 w-full max-w-xl max-h-full">
-            <!-- Modal content -->
-            <div class="relative bg-gray-300 rounded-lg shadow dark:bg-gray-700">
-              <!-- Modal header -->
-              <div
-                class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600"
-              >
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-                  Anfrageformular
-                </h3>
-                <button
-                  type="button"
-                  class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                  data-modal-hide="authentication-modal"
-                >
-                  <svg
-                    class="w-3 h-3"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 14 14"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-                    />
-                  </svg>
-                  <span class="sr-only">Close modal</span>
-                </button>
-              </div>
-              <!-- Modal body -->
-              <div class="flex wrap p-4 md:p-3">
-                <form id="contact-form" class="mt-4 w-full max-w-lg mx-auto">
-                  <!-- Kontaktdaten des Absenders -->
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="sender_name"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Name des Absenders:</label
-                      >
-                      <input
-                        type="text"
-                        name="sender_name"
-                        id="sender_name"
-                        placeholder="Ihr Name"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
+                <!-- Paketinformationen -->
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="package_weight"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Gewicht:</label>
+                    <input type="text" name="package_weight" id="package_weight" placeholder="Gewicht des Pakets"
+                      required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
                   </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="sender_email"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >E-Mail des Absenders:</label
-                      >
-                      <input
-                        type="email"
-                        name="sender_email"
-                        id="sender_email"
-                        placeholder="Ihre E-Mail-Adresse"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="package_dimensions"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Maße:</label>
+                    <input type="text" name="package_dimensions" id="package_dimensions"
+                      placeholder="Länge x Breite x Höhe" required
+                      class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
                   </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="sender_phone"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Telefon des Absenders:</label
-                      >
-                      <input
-                        type="text"
-                        name="sender_phone"
-                        id="sender_phone"
-                        placeholder="Telefonnummer"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <label for="packaging_type"
+                      class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Verpackungsart:</label>
+                    <select name="packaging_type" id="packaging_type" required
+                      class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                      <option value="">Bitte wählen...</option>
+                      <option value="Karton">Karton</option>
+                      <option value="Palette">Palette</option>
+                      <option value="Brief">Brief</option>
+                      <!-- Füge weitere Verpackungsarten nach Bedarf hinzu -->
+                    </select>
                   </div>
-                  <!-- Kontaktdaten des Empfängers -->
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="recipient_name"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Name des Empfängers:</label
-                      >
-                      <input
-                        type="text"
-                        name="recipient_name"
-                        id="recipient_name"
-                        placeholder="Name des Empfängers"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="recipient_email"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >E-Mail des Empfängers:</label
-                      >
-                      <input
-                        type="email"
-                        name="recipient_email"
-                        id="recipient_email"
-                        placeholder="E-Mail-Adresse des Empfängers"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="recipient_phone"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Telefon des Empfängers:</label
-                      >
-                      <input
-                        type="text"
-                        name="recipient_phone"
-                        id="recipient_phone"
-                        placeholder="Telefonnummer des Empfängers"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="recipient_address"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Adresse des Empfängers:</label
-                      >
-                      <input
-                        type="text"
-                        name="recipient_address"
-                        id="recipient_address"
-                        placeholder="Adresse des Empfängers"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
+                </div>
 
-                  <!-- Abholdetails -->
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="pickup_location"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Abholadresse:</label
-                      >
-                      <input
-                        type="text"
-                        name="pickup_location"
-                        id="pickup_location"
-                        placeholder="Abholadresse"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                  <div class="w-full px-3">
+                    <button type="submit"
+                      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">
+                      Senden
+                    </button>
                   </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="pickup_date"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Abholdatum:</label
-                      >
-                      <input
-                        type="date"
-                        name="pickup_date"
-                        id="pickup_date"
-                        placeholder="Abholdatum"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="pickup_time"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Abholzeit:</label
-                      >
-                      <input
-                        type="time"
-                        name="pickup_time"
-                        id="pickup_time"
-                        placeholder="Abholzeit"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-
-                  <!-- Lieferdetails -->
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="delivery_destination"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Lieferadresse:</label
-                      >
-                      <input
-                        type="text"
-                        name="delivery_destination"
-                        id="delivery_destination"
-                        placeholder="Lieferadresse"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="delivery_date"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Lieferdatum:</label
-                      >
-                      <input
-                        type="date"
-                        name="delivery_date"
-                        id="delivery_date"
-                        placeholder="Lieferdatum"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="delivery_time"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Lieferzeit:</label
-                      >
-                      <input
-                        type="time"
-                        name="delivery_time"
-                        id="delivery_time"
-                        placeholder="Lieferzeit"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-
-                  <!-- Paketinformationen -->
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="package_weight"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Gewicht:</label
-                      >
-                      <input
-                        type="text"
-                        name="package_weight"
-                        id="package_weight"
-                        placeholder="Gewicht des Pakets"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="package_dimensions"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Maße:</label
-                      >
-                      <input
-                        type="text"
-                        name="package_dimensions"
-                        id="package_dimensions"
-                        placeholder="Länge x Breite x Höhe"
-                        required
-                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        for="packaging_type"
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        >Verpackungsart:</label
-                      >
-                      <select
-                        name="packaging_type"
-                        id="packaging_type"
-                        required
-                        class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      >
-                        <option value="">Bitte wählen...</option>
-                        <option value="Karton">Karton</option>
-                        <option value="Palette">Palette</option>
-                        <option value="Brief">Brief</option>
-                        <!-- Füge weitere Verpackungsarten nach Bedarf hinzu -->
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <button
-                        type="submit"
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
-                      >
-                        Senden
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-
-        <script>
-          document
-            .getElementById("contact-form")
-            .addEventListener("submit", function (event) {
-              event.preventDefault(); // Verhindert das Neuladen der Seite beim Absenden
-
-              let data = {
-                service_id: "service_1jlwutf",
-                template_id: "template_so6z2e5",
-                user_id: "wrzcWVNcwS-4P97Se",
-                template_params: {
-                    sender_name: this.sender_name.value,
-            sender_email: this.sender_email.value,
-            sender_phone: this.sender_phone.value,
-            recipient_name: this.recipient_name.value,
-            recipient_email: this.recipient_email.value,
-            recipient_phone: this.recipient_phone.value,
-            recipient_address: this.recipient_address.value,
-            pickup_location: this.pickup_location.value,
-            pickup_date: this.pickup_date.value,
-            pickup_time: this.pickup_time.value,
-            delivery_destination: this.delivery_destination.value,
-            delivery_date: this.delivery_date.value,
-            delivery_time: this.delivery_time.value,
-            package_weight: this.package_weight.value,
-            package_dimensions: this.package_dimensions.value,
-            packaging_type: this.packaging_type.value,
-                },
-              };
-              console.log(data);
-
-              fetch("https://api.emailjs.com/api/v1.0/email/send", {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify(data),
-              })
-                .then((response) => response.json())
-                .then((data) => {
-                  alert("Ihre Nachricht wurde erfolgreich versendet!");
-                  console.log("Success:", data);
-                })
-                .catch((error) => {
-                  alert("Send");
-                });
-            });
-        </script>
       </div>
-    </section>
-    <footer class="bg-white shadow-md mt-8">
-      <div class="container mx-auto px-4 py-6">
-        <div class="flex justify-between">
-          <div>
-            <a
-              href="#"
-              class="text-sm md:text-lg font-semibold text-gray-700 hover:text-gray-900"
-              >&copy; Kurierdienst Hausner</a
-            >
-          </div>
-          <div class="flex justify-end">
-            <a
-              href="impressum.html"
-              class="text-gray-600 hover:text-gray-900 ml-4"
-              >Impressum</a
-            >
-            <a
-              href="datenschutz.html"
-              class="text-gray-600 hover:text-gray-900 ml-4"
-              >Datenschutzerklärung</a
-            >
-          </div>
+
+      <script>
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+          event.preventDefault(); // Verhindert das Neuladen der Seite beim Absenden
+
+          // Zugriff auf den Senden-Button
+          const sendButton = this.querySelector('button[type="submit"]');
+
+          // Speichern des ursprünglichen Button-Inhalts und Ersetzen durch den CSS-Spinner
+          const originalButtonContent = sendButton.innerHTML;
+          sendButton.innerHTML = '<div class="loader"></div>';
+          sendButton.disabled = true; // Deaktivieren des Buttons, um mehrfache Klicks zu verhindern
+
+          let data = {
+            service_id: "service_slqdrij",
+            template_id: "template_so6z2e5",
+            user_id: "wrzcWVNcwS-4P97Se",
+            template_params: {
+              sender_name: this.sender_name.value,
+              sender_email: this.sender_email.value,
+              sender_phone: this.sender_phone.value,
+              recipient_name: this.recipient_name.value,
+              recipient_email: this.recipient_email.value,
+              recipient_phone: this.recipient_phone.value,
+              recipient_address: this.recipient_address.value,
+              pickup_location: this.pickup_location.value,
+              pickup_date: this.pickup_date.value,
+              pickup_time: this.pickup_time.value,
+              delivery_destination: this.delivery_destination.value,
+              delivery_date: this.delivery_date.value,
+              delivery_time: this.delivery_time.value,
+              package_weight: this.package_weight.value,
+              package_dimensions: this.package_dimensions.value,
+              packaging_type: this.packaging_type.value,
+            },
+          };
+
+          fetch("https://api.emailjs.com/api/v1.0/email/send", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+          })
+            .then((data) => {
+              // Bei Erfolg: Ersetzen des Spinners mit einem Häkchensymbol
+              sendButton.innerHTML = '&#10003;'; // Unicode für das Häkchen
+              sendButton.style.fontSize = '20px'; // Optional: Anpassen der Schriftgröße des Häkchens
+            })
+            .catch((error) => {
+              sendButton.innerHTML = originalButtonContent; // Zurücksetzen des Buttons auf den ursprünglichen Zustand bei einem Fehler
+              alert("Fehler beim Senden der Nachricht. Bitte versuchen Sie es später erneut.");
+            })
+            .finally(() => {
+              sendButton.disabled = false; // Reaktivieren des Buttons nach Abschluss des Sendevorgangs
+            });
+        });
+
+
+      </script>
+    </div>
+  </section>
+  <footer class="bg-white shadow-md mt-8">
+    <div class="container mx-auto px-4 py-6">
+      <div class="flex justify-between">
+        <div>
+          <a href="#" class="text-sm md:text-lg font-semibold text-gray-700 hover:text-gray-900">&copy; Kurierdienst
+            Hausner</a>
+        </div>
+        <div class="flex justify-end">
+          <a href="impressum.html" class="text-gray-600 hover:text-gray-900 ml-4">Impressum</a>
+          <a href="datenschutz.html" class="text-gray-600 hover:text-gray-900 ml-4">Datenschutzerklärung</a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        let currentIndex = 0;
-        const reviews = document.querySelectorAll(".review-item");
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let currentIndex = 0;
+      const reviews = document.querySelectorAll(".review-item");
 
-        const updateReviewVisibility = (index) => {
-          reviews.forEach((review, i) => {
-            review.style.display = "none"; // Verstecke alle Rezensionen
-            review.classList.remove("active", "exit"); // Entferne Klassen für aktive und ausfahrende Animationen
+      const updateReviewVisibility = (index) => {
+        reviews.forEach((review, i) => {
+          review.style.display = "none"; // Verstecke alle Rezensionen
+          review.classList.remove("active", "exit"); // Entferne Klassen für aktive und ausfahrende Animationen
 
-            if (i === index) {
-              review.style.display = "block"; // Zeige die aktuelle Rezension
-              setTimeout(() => {
-                review.classList.add("active");
-              }, 10); // Verzögere das Hinzufügen der 'active'-Klasse für die Animation
-            }
-          });
-        };
-
-        document.querySelector(".prev").addEventListener("click", () => {
-          reviews[currentIndex].classList.add("exit");
-          currentIndex =
-            currentIndex - 1 < 0 ? reviews.length - 1 : currentIndex - 1;
-          setTimeout(() => {
-            updateReviewVisibility(currentIndex);
-          }, 250); // Warte bis die Ausblendanimation fertig ist
+          if (i === index) {
+            review.style.display = "block"; // Zeige die aktuelle Rezension
+            setTimeout(() => {
+              review.classList.add("active");
+            }, 10); // Verzögere das Hinzufügen der 'active'-Klasse für die Animation
+          }
         });
+      };
 
-        document.querySelector(".next").addEventListener("click", () => {
-          reviews[currentIndex].classList.add("exit");
-          currentIndex = (currentIndex + 1) % reviews.length;
-          setTimeout(() => {
-            updateReviewVisibility(currentIndex);
-          }, 250); // Warte bis die Ausblendanimation fertig ist
-        });
-
-        updateReviewVisibility(currentIndex); // Zeige das erste Rezensions-Element beim Laden
+      document.querySelector(".prev").addEventListener("click", () => {
+        reviews[currentIndex].classList.add("exit");
+        currentIndex =
+          currentIndex - 1 < 0 ? reviews.length - 1 : currentIndex - 1;
+        setTimeout(() => {
+          updateReviewVisibility(currentIndex);
+        }, 250); // Warte bis die Ausblendanimation fertig ist
       });
-    </script>
-  </body>
+
+      document.querySelector(".next").addEventListener("click", () => {
+        reviews[currentIndex].classList.add("exit");
+        currentIndex = (currentIndex + 1) % reviews.length;
+        setTimeout(() => {
+          updateReviewVisibility(currentIndex);
+        }, 250); // Warte bis die Ausblendanimation fertig ist
+      });
+
+      updateReviewVisibility(currentIndex); // Zeige das erste Rezensions-Element beim Laden
+    });
+  </script>
+</body>
+
 </html>
